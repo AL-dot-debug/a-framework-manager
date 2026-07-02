@@ -1,0 +1,54 @@
+{
+    "product_name": "Framework Manager",
+    "framework_name": "Framework",
+    "org_name": "The Foundation",
+    "org_short": "Foundation",
+    "org_description": "A framework for describing and understanding a domain.",
+    "source_name": "FRAMEWORK",
+    "artifact_slug": "framework",
+    "base_url": "https://example.com",
+    "stix_property_prefix": "x_framework",
+    "extension_definition_id": "extension-definition--5e2b6a02-2f6c-41e3-9089-58736bc92b6f",
+    "extension_definition_name": "Framework Membership",
+    "identity_ref": "identity--5a3a8b9c-3443-406f-bd60-9b04bacc9677",
+    "subframeworks": {
+        "primary": {
+            "label": "Primary",
+            "id_prefix": "PRI",
+            "kill_chain_name": "framework-primary",
+            "levels": {
+                "tactic": {
+                    "label": "Tactic",
+                    "plural": "Tactics"
+                },
+                "technique": {
+                    "label": "Technique",
+                    "plural": "Techniques"
+                },
+                "subtechnique": {
+                    "label": "Sub-technique",
+                    "plural": "Sub-techniques"
+                }
+            }
+        },
+        "secondary": {
+            "label": "Secondary",
+            "id_prefix": "SEC",
+            "kill_chain_name": "framework-secondary",
+            "levels": {
+                "tactic": {
+                    "label": "Tactic",
+                    "plural": "Tactics"
+                },
+                "technique": {
+                    "label": "Technique",
+                    "plural": "Techniques"
+                },
+                "subtechnique": {
+                    "label": "Sub-technique",
+                    "plural": "Sub-techniques"
+                }
+            }
+        }
+    }
+}
