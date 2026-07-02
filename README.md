@@ -1,4 +1,4 @@
-# Framework Manager
+# A Framework Manager
 
 Framework Manager is a collaborative, framework-agnostic web application for building and maintaining a STIX 2.1 knowledge base of tactics, techniques and sub-techniques. Teams use it to propose, review and release changes to a framework through a structured, auditable workflow.
 
